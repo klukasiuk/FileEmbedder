@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="EmbeddedFiles">
+      <UniqueIdentifier>{0c2758e2-85de-4800-b22e-5e571035e8a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="embedded_files.cpp">
+      <Filter>EmbeddedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="files_headers\test_code_cpp.cpp">
+      <Filter>EmbeddedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="files_headers\test_image_png.cpp">
+      <Filter>EmbeddedFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="embedded_files.h">
+      <Filter>EmbeddedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="embedded_file_struct.h">
+      <Filter>EmbeddedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="files_headers\test_code_cpp.h">
+      <Filter>EmbeddedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="files_headers\test_image_png.h">
+      <Filter>EmbeddedFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
